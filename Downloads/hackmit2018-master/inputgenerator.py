@@ -1,6 +1,8 @@
 import random
 import sys
 
+# random ints and floats
+
 def gen_int():
     return random.randint(-(sys.maxsize), sys.maxsize)
 def gen_float():
